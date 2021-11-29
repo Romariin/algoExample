@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "name": "Henry",
+      "age": 46,
+      "passion": ["Vélo", "Tricot"],
+      "ville": "Pau"
+    },
+    {
+      "name": "Sonia",
+      "age": 21,
+      "passion": ["Fashion", "Muscu"],
+      "ville": "Valence"
+    },
+    {
+      "name": "Marius",
+      "age": 19,
+      "passion": ["Gaming", "Développement", "Muscu"],
+      "ville": "Laval"
+    },
+    {
+      "name": "Tom",
+      "age": 16,
+      "passion": ["Fashion", "Vélo", "Gaming", "Développement"],
+      "ville": "Paris"
+    },
+    {
+      "name": "Killian",
+      "age": 46,
+      "passion": ["Gaming", "Tricot"],
+      "ville": "Besançon"
+    }
+  ]
+}
