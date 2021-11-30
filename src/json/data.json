@@ -1,5 +1,4 @@
-{
-  "user": [
+[
     {
       "name": "Henry",
       "age": 46,
@@ -29,6 +28,11 @@
       "age": 46,
       "passion": ["Gaming", "Tricot"],
       "ville": "Besançon"
+    },
+    {
+      "name": "Beber",
+      "age": 99,
+      "passion": ["Développement", "Booon, d'accord"],
+      "ville": "Pau"
     }
   ]
-}
