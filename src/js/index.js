@@ -10,7 +10,6 @@ function globalFunction() {
 
 // TODO: Faire appparraitre un selector avec les passions récupérer dans le JSON | ✔
     function genSelector() {
-        // ["Vélo", "Tricot", "Fashion", "Muscu", "Gaming", "Développement"] //
         getJSONData()
             .then(result => {
                 var catPassion = [];
@@ -41,10 +40,10 @@ function globalFunction() {
                 const resultDiv = document.querySelector(".result")
                 const balise = resultDiv.innerHTML;
                 actualSelected.addEventListener('change', (event) => {
-                    console.log(balise)
+                    resultDiv.innerHTML = "";
                     result.forEach(info => {
-                        info.passion.forEach(result => {
-                            if (result === actualSelected.value) {
+                        info.passion.forEach(data => {
+                            if (data === actualSelected.value) {
                                 const divContent = document.createElement("div");
                                 const titleContent = document.createElement("h1");
                                 const pContent = document.createElement("p");
