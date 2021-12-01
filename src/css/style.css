@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: normal !important;
 }
 
 body {
@@ -9,7 +11,7 @@ body {
     color: white;
 }
 
-h1 {
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,4 +19,19 @@ h1 {
     font-weight: normal !important;
     line-height: 1.5;
     padding: 0.6em;
+}
+
+.result {
+    display: flex;
+}
+
+.result div {
+    background-color: red;
+    padding: 10px 0 0 0;
+    width: 200px;
+    height: 200px;
+}
+
+.result div:nth-child(3n) {
+    page-break-after: always;
 }
