@@ -2,13 +2,13 @@
     {
       "name": "Henry",
       "age": 46,
-      "passion": ["Vélo", "Tricot"],
+      "passion": ["Vélo", "Tricot", "Muscu"],
       "ville": "Pau"
     },
     {
       "name": "Sonia",
       "age": 21,
-      "passion": ["Fashion", "Muscu"],
+      "passion": ["Fashion", "Musique"],
       "ville": "Valence"
     },
     {
