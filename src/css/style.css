@@ -22,16 +22,9 @@ body {
 }
 
 .result {
-    display: flex;
+    display: inline-flex;
 }
 
 .result div {
-    background-color: red;
     padding: 10px 0 0 0;
-    width: 200px;
-    height: 200px;
-}
-
-.result div:nth-child(3n) {
-    page-break-after: always;
 }
